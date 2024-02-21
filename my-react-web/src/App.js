@@ -9,12 +9,13 @@ import ForgotPassScreen from "./components/forgotpassword";
 function App() {
   return (
     <div className="App">
-       <Header />
+       {/* <Header />
       <div className="content" style={style.contentContainer}>
       <Tools />
       <ChatPanel />
       <ChatFrame></ChatFrame>
-      </div> 
+      </div>  */}
+      <ForgotPassScreen></ForgotPassScreen>
     
     </div>
   );

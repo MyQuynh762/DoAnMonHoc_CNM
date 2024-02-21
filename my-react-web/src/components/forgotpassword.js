@@ -28,6 +28,7 @@ const ForgotPassScreen = () => {
           <input type="text" value={phoneNumber} onChange={handlePhoneNumberChange} style={style.input} />
         </div>
         <button style={style.button} onClick={handleZaloRegister}>Gửi</button>
+        <h6 style={style.h6}>Quay lại</h6>
        
       </div>
     </div>
@@ -90,7 +91,11 @@ const style = {
   forgot:{
     color:'#007bff',
     marginLeft:100
+  },
+  h6:{
+    color:'#007bff',
   }
+  
 };
 
 export default ForgotPassScreen;
